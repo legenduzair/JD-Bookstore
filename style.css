@@ -41,3 +41,8 @@ body {
     padding: 1rem;
     display: block;
 }
+
+.social-media {
+    float: right;
+    font-size: 2.5rem;
+}
