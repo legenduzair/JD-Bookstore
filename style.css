@@ -163,9 +163,9 @@ body {
 }
 
 
-/** Main Section CSS Styles **/
+/** Main Section CSS Styles & Media Queries **/
 
-#main p {
+#intro {
     text-align: center;
 }
 
@@ -203,6 +203,20 @@ body {
 }
 
 @media (min-width: 760px) {
+    #main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .featured {
+        align-self: flex-end;
+        margin-right: 50px;
+        width: 25vw;
+        position: relative;
+        bottom: 30rem;
+        height: 100vh;
+    }
+
     .booklist-cards {
         display: flex;
         flex-direction: row;
@@ -216,10 +230,6 @@ body {
         width: 45%;
     }
 }
-
-
-
-
 
 /** Footer CSS Styles **/
 
