@@ -32,7 +32,7 @@ body {
 
 .navbar-links {
     font-size: 1.5rem;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     letter-spacing: 0.7px;
 }
 
@@ -45,7 +45,7 @@ body {
 
 .navbar-links li {
     list-style: none;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 }
 
 .navbar-links li a {
@@ -127,12 +127,36 @@ body {
 
     .navbar-links {
         display: none;
+        width: 100%;
     }
 
     .hamburger {
         display: flex;
         justify-content: center;
     }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links {
+        height: 75%;
+        font-size: 1rem;
+    }
+
+    .navbar {
+        height: 40vh;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
 }
 
 
