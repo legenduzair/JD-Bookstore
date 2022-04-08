@@ -1,3 +1,5 @@
+/** General CSS Styles **/
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +8,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/** Header CSS Styles **/
 
 .navbar {
     background-color: #333;
@@ -17,11 +21,18 @@ body {
     font-size: 3rem;
     margin: 0.5rem;
     text-align: center;
+    padding-top: 50px;
+}
+
+.social-links {
+    text-decoration: none;
+    color: white;
 }
 
 .navbar-links {
     font-size: 1.5rem;
     padding-top: 1rem;
+    letter-spacing: 0.7px;
 }
 
 .navbar-links ul {
@@ -33,6 +44,7 @@ body {
 
 .navbar-links li {
     list-style: none;
+    padding-right: 10px;
 }
 
 .navbar-links li a {
@@ -43,6 +55,10 @@ body {
 }
 
 .social-media {
-    float: right;
     font-size: 2.5rem;
+    position: absolute;
+    padding-top: 20px;
+    right: 430px;
 }
+
+/** Intro CSS Styles **/
