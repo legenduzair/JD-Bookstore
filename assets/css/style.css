@@ -213,8 +213,13 @@ body {
         margin-right: 50px;
         width: 25vw;
         position: relative;
-        bottom: 30rem;
+        bottom: 33rem;
         height: 100vh;
+    }
+
+    .booklist {
+        padding-top: 10px;
+        padding-left: 10px;
     }
 
     .booklist-cards {
