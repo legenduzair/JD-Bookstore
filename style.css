@@ -14,7 +14,7 @@ body {
 .navbar {
     background-color: #333;
     color: white;
-    height: 25vh;
+    min-height: 25vh;
 }
 
 .brand-title {
@@ -150,7 +150,7 @@ body {
     }
 
     .navbar {
-        height: 40vh;
+        min-height: 15vh;
     }
 
     .navbar-links.active {
