@@ -163,7 +163,7 @@ body {
 }
 
 
-/** Intro CSS Styles **/
+/** Main Section CSS Styles **/
 
 #main p {
     text-align: center;
@@ -192,7 +192,7 @@ body {
         height: 85%;
     }
 
-    .card {
+    .f-card, .b-card {
         background-color: white;
         border: 1px solid #bacdd8;
         padding: 8px;
@@ -201,6 +201,25 @@ body {
         margin-top: 10px;
     }
 }
+
+@media (min-width: 760px) {
+    .booklist-cards {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        max-width: 65%;
+        flex-wrap: wrap;
+    }
+
+    .b-card {
+        flex: 0 0 auto;
+        width: 45%;
+    }
+}
+
+
+
+
 
 /** Footer CSS Styles **/
 
