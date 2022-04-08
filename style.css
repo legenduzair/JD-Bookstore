@@ -172,14 +172,33 @@ body {
 @media (min-width: 320px) {
     .featured {
         text-align: center;
-        height: 40vh;
+        height: 60vh;
     }
-}
 
-@media (min-width: 320px) {
     .booklist {
         text-align: center;
-        height: 50vh;
+        height: 60vh;
+    }
+
+    .featured-cards {
+        display: flex;
+        height: 90%;
+        flex-direction: column;
+    }
+
+    .booklist-cards {
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+    }
+
+    .card {
+        background-color: white;
+        border: 1px solid #bacdd8;
+        padding: 8px;
+        border-radius: 12px;
+        height: 50%;
+        margin-top: 10px;
     }
 }
 
