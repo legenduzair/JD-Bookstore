@@ -55,6 +55,8 @@ body {
     display: block;
 }
 
+/** Social Media links Media Queries **/
+
 @media (min-width: 720px) {
 
     .social-media {
@@ -118,6 +120,7 @@ body {
     border-radius: 10px;
 }
 
+/** Mobile/Tablet Navbar & Hamburger Media Queries **/
 
 @media (max-width: 760px) {
 
@@ -162,6 +165,23 @@ body {
 
 /** Intro CSS Styles **/
 
+#main p {
+    text-align: center;
+}
+
+@media (min-width: 320px) {
+    .featured {
+        text-align: center;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 320px) {
+    .booklist {
+        text-align: center;
+        height: 50vh;
+    }
+}
 
 /** Footer CSS Styles **/
 
@@ -181,9 +201,9 @@ body {
         text-align: center;
         padding-top: 50px;
         padding-left: 25px;
-        position: absolute;
+        /* position: absolute;
         bottom: 0;
-        width: 100%;
+        width: 100%; */
         font-size: 2rem;
     }
 }
