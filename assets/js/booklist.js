@@ -27,29 +27,54 @@
     }
    })
 
+  const selectedCards = localStorage.getItem('selectedCards') ? JSON.parse(localStorage.getItem('selectedCards')) : [];
   let bCards = document.getElementsByClassName('b-card');
   let fCards = document.getElementsByClassName('f-card');
 
-  for (let bCard of bCards) {
-  bCard.addEventListener('click', () => {
-      const classes = bCard.classList;
+  selectedCards.forEach(index => {
+    if(index <= 7) {
+      bCards[index].classList.add('is-selected');
+    }
+
+    if (index > 7) {
+      fCards[index - 8].classList.add('is-selected');
+    }
+  });
+
+  for (let i = 0; i < bCards.length; i++) {
+  bCards[i].addEventListener('click', () => {
+      const classes = bCards[i].classList;
       if (classes.contains('is-selected')) {
-          bCard.classList.remove('is-selected');
+          saveToLocalStorage(selectedCards, i, false);
+          bCards[i].classList.remove('is-selected');
       } else {
-          bCard.classList.add('is-selected');
+          saveToLocalStorage(selectedCards, i, true);
+          bCards[i].classList.add('is-selected');
       }
   });
   } 
-  for (let fCard of fCards) {
-    fCard.addEventListener('click', () => {
-        const classes = fCard.classList;
+  for (let i = 0; i < fCards.length; i++) {
+    fCards[i].addEventListener('click', () => {
+        const classes = fCards[i].classList;
         if (classes.contains('is-selected')) {
-            fCard.classList.remove('is-selected');
+          saveToLocalStorage(selectedCards, i + 8, false);
+          fCards[i].classList.remove('is-selected');
         } else {
-            fCard.classList.add('is-selected');
+          saveToLocalStorage(selectedCards, i + 8, true);
+          fCards[i].classList.add('is-selected');
         }
     });
     } 
+  }
+
+  function saveToLocalStorage(selected, i, add) {
+    if(add) {
+      selected.push(i);
+    } else {
+      const index = selected.indexOf(i);
+      selected.splice(index, 1);
+    }
+    localStorage.setItem('selectedCards', JSON.stringify(selected));
   }
  
 
