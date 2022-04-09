@@ -243,10 +243,10 @@ header img {
     }
 
     .book-description {
-        /* width: 140ch; */
+        /* width: 140ch;
         text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
+        overflow: hidden; */
+        white-space: pre-wrap;
     }
 }
 
@@ -297,10 +297,10 @@ header img {
     }
 
     .book-description {
-        /* width: 140ch; */
+        /* width: 140ch;
         text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
+        overflow: hidden; */
+        white-space: pre-wrap;
     }
 }
 
