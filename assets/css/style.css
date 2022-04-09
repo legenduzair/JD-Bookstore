@@ -1,4 +1,4 @@
-/** General CSS Styles **/
+/* General CSS Styles */
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
     padding: 0;
 }
 
-/** Header CSS Styles **/
+/* Header CSS Styles */
 
 .navbar {
     background-color: #333;
@@ -66,7 +66,7 @@ header img {
     display: block;
 }
 
-/** Social Media links Media Queries **/
+/* Social Media links Media Queries */
 
 @media (min-width: 720px) {
 
@@ -110,7 +110,7 @@ header img {
 }
 
 
-/** Hamburger Menu CSS Styles **/
+/* Hamburger Menu CSS Styles */
 
 .toggle-button {
     /* position: absolute;
@@ -131,7 +131,7 @@ header img {
     border-radius: 10px;
 }
 
-/** Mobile/Tablet Navbar & Hamburger Media Queries **/
+/* Mobile/Tablet Navbar & Hamburger Media Queries */
 
 @media (max-width: 760px) {
 
@@ -178,7 +178,7 @@ header img {
 }
 
 
-/** Main Section CSS Styles & Media Queries **/
+/* Main Section CSS Styles & Media Queries */
 
 #intro {
     text-align: center;
@@ -325,8 +325,9 @@ header img {
     }
 }
 
+/* is-selected class */
 .is-selected {
-    background-color: #333;
+    background-color: #FFE0B5;
 }
 
 /** Footer CSS Styles **/
