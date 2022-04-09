@@ -325,6 +325,16 @@ header img {
     }
 }
 
+.b-card {
+    padding: 15px;
+    margin: 10px;
+}
+
+.f-card {
+    padding: 10px;
+    margin: 10px;
+}
+
 /* is-selected class */
 .is-selected {
     background-color: #FFE0B5;
