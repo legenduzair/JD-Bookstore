@@ -325,6 +325,10 @@ header img {
     }
 }
 
+.is-selected {
+    background-color: #333;
+}
+
 /** Footer CSS Styles **/
 
 @media (min-width: 760px) {

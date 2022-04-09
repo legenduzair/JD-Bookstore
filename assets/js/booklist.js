@@ -26,4 +26,30 @@
       container.append(div);
     }
    })
- }
+
+  let bCards = document.getElementsByClassName('b-card');
+  let fCards = document.getElementsByClassName('f-card');
+
+  for (let bCard of bCards) {
+  bCard.addEventListener('click', () => {
+      const classes = bCard.classList;
+      if (classes.contains('is-selected')) {
+          bCard.classList.remove('is-selected');
+      } else {
+          bCard.classList.add('is-selected');
+      }
+  });
+  } 
+  for (let fCard of fCards) {
+    fCard.addEventListener('click', () => {
+        const classes = fCard.classList;
+        if (classes.contains('is-selected')) {
+            fCard.classList.remove('is-selected');
+        } else {
+            fCard.classList.add('is-selected');
+        }
+    });
+    } 
+  }
+ 
+
