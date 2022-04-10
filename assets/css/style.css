@@ -177,6 +177,12 @@ header img {
 
 }
 
+@media (min-width: 760px) {
+    .brand-title {
+        margin-right: 10.625rem;
+    }
+}
+
 
 /* Main Section CSS Styles & Media Queries */
 
