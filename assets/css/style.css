@@ -353,14 +353,14 @@ header img {
         text-overflow: ellipsis;
         overflow: hidden; */
         white-space: pre-wrap;
-        font-size: 0.73rem;
+        font-size: 0.63rem;
     }
 }
 
 @media (min-width: 875px) {
 
     .book-description {
-        font-size: 0.9rem;
+        font-size: 0.82rem;
     }
 }
 
