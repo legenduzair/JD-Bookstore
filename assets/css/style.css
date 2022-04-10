@@ -194,7 +194,7 @@ header img {
 
     .featured {
         text-align: center;
-        height: 88vh;
+        height: 115vh;
     }
 
     .booklist {
@@ -211,7 +211,7 @@ header img {
     .booklist-cards {
         display: flex;
         flex-direction: column;
-        height: 85%;
+        height: 100%;
     }
 
     .f-card, .b-card {
