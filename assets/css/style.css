@@ -324,7 +324,7 @@ header img {
     .f-card {
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     .f-card img {
