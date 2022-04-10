@@ -192,6 +192,11 @@ header img {
 }
 
 @media (min-width: 320px) {
+
+    #intro {
+        font-size: 0.58rem;
+    }
+
     .featured {
         text-align: center;
         height: 88vh;
@@ -253,6 +258,20 @@ header img {
         overflow: hidden; */
         white-space: pre-wrap;
         font-size: 0.6rem;
+    }
+}
+
+@media (min-width: 360px) {
+
+    #intro {
+        font-size: 0.65rem;
+    }
+}
+
+@media (min-width: 595px) {
+
+    #intro {
+        font-size: 1rem;
     }
 }
 
