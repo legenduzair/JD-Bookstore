@@ -8,9 +8,10 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active');
 });
 
-const activePage = window.location.pathname;
+// To acquire anchor tag in navbar links div.
 const navLinks = document.querySelector('.navbar-links a');
 
+// If statement to add active class if user is on active page.
 if (navLinks.href.includes(`${activePage}`)) {
     navLinks.classList.add('active');
 };
