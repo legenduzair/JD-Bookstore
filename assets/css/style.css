@@ -294,6 +294,16 @@ header img {
         padding-left: 10px;
     }
 
+    .f-card {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .f-card img {
+        align-self: center;
+    }
+
     .book-description {
         /* width: 140ch;
         text-overflow: ellipsis;
