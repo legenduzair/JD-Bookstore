@@ -12,7 +12,7 @@
      <h1>${item.volumeInfo.title}${subtitle}</h1>
      <p><strong>${item.volumeInfo.authors}</strong></p>
      <strong>Pages: ${item.volumeInfo.pageCount}</strong>
-     <p class="book-description">${text}</p>`
+     <p class="book-description">${text}</p>`;
      
      let container = document.querySelector('.booklist-cards');
      container.append(div);
@@ -25,12 +25,12 @@
       <h1>${item.volumeInfo.title}${subtitle}</h1>
       <p><strong>${item.volumeInfo.authors}</strong></p>
       <strong>Pages: ${item.volumeInfo.pageCount}</strong>
-      <p class="book-description">${text}</p>`
+      <p class="book-description">${text}</p>`;
       
       let container = document.querySelector('.featured-cards');
       container.append(div);
     }
-   })
+   });
 
   /* If selected cards exist in local storage, 
   then read saved selected cards from local storage 
