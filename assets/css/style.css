@@ -302,6 +302,23 @@ header img {
 
     .f-card img {
         align-self: center;
+        padding-top: 20px;
+    }
+
+    .f-card h1 {
+        order: 5;
+    }
+
+    .f-card p {
+        order: 4;
+    }
+
+    .f-card strong {
+        order: 3;
+    }
+
+    .f-card .book-description {
+        order: 2;
     }
 
     .book-description {
