@@ -187,7 +187,7 @@ header img {
 @media (min-width: 320px) {
     .featured {
         text-align: center;
-        height: 80vh;
+        height: 85vh;
     }
 
     .booklist {
