@@ -7,3 +7,10 @@ If clicked, the navbar links are displayed. */
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active');
 });
+
+const activePage = window.location.pathname;
+const navLinks = document.querySelector('.navbar-links a');
+
+if (navLinks.href.includes(`${activePage}`)) {
+    navLinks.classList.add('active');
+};
