@@ -193,7 +193,7 @@ header img {
 @media (min-width: 320px) {
     .featured {
         text-align: center;
-        height: 85vh;
+        height: 88vh;
     }
 
     .booklist {
@@ -251,6 +251,7 @@ header img {
         text-overflow: ellipsis;
         overflow: hidden; */
         white-space: pre-wrap;
+        font-size: 0.6rem;
     }
 }
 
@@ -266,7 +267,7 @@ header img {
         width: 25vw;
         position: relative;
         bottom: 31rem;
-        height: 100vh;
+        height: 118vh;
     }
 
     .booklist {
@@ -332,6 +333,14 @@ header img {
         text-overflow: ellipsis;
         overflow: hidden; */
         white-space: pre-wrap;
+        font-size: 0.73rem;
+    }
+}
+
+@media (min-width: 875px) {
+
+    .book-description {
+        font-size: 0.9rem;
     }
 }
 
