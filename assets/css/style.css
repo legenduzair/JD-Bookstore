@@ -77,17 +77,10 @@ header img {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 759px) {
 
     .social-media {
-        width: 87%;
-    }
-}
-
-@media (max-width: 980px) {
-
-    .social-media {
-        width: 93%;
+        display: none;
     }
 }
 
@@ -98,15 +91,21 @@ header img {
     }
 }
 
-@media (max-width: 759px) {
+@media (max-width: 980px) {
 
     .social-media {
-        display: none;
+        width: 93%;
     }
 }
 
+@media (max-width: 1200px) {
 
-/* Hamburger Menu CSS Styles */
+    .social-media {
+        width: 87%;
+    }
+}
+
+/* General Hamburger Menu CSS Styles */
 
 .toggle-button {
     display: none;
@@ -124,6 +123,12 @@ header img {
 }
 
 /* Mobile/Tablet Navbar & Hamburger Media Queries */
+
+@media (min-width: 760px) {
+    .brand-title {
+        margin-right: 10.625rem;
+    }
+}
 
 @media (max-width: 759px) {
 
@@ -168,13 +173,6 @@ header img {
     }
 
 }
-
-@media (min-width: 760px) {
-    .brand-title {
-        margin-right: 10.625rem;
-    }
-}
-
 
 /* Main Section CSS Styles & Media Queries */
 
