@@ -258,7 +258,7 @@ header img {
     
     .featured {
         align-self: flex-end;
-        margin-right: 15px;
+        /* margin-right: 15px; */
         width: 25vw;
         position: relative;
         bottom: 33rem;
@@ -327,7 +327,7 @@ header img {
 
 .b-card {
     padding: 15px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .f-card {
@@ -342,14 +342,7 @@ header img {
 
 /** Footer CSS Styles **/
 
-@media (min-width: 760px) {
-
-    footer {
-        display: none;
-    }
-}
-
-@media (max-width: 760px) {
+@media (min-width: 320px) {
 
     footer {
         /* left: 0;
@@ -365,3 +358,11 @@ header img {
         margin-top: 1400px;
     }
 }
+
+@media (min-width: 760px) {
+
+    footer {
+        display: none;
+    }
+}
+
