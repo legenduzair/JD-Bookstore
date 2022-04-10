@@ -324,14 +324,15 @@ header img {
 }
 
 .featured {
-    border: 3px solid grey;
+    border: 3px solid black;
     border-radius: 10px;
+    background-color: darkgray;
 }
 
 .b-card {
     padding: 10px;
     margin: 5px;
-    border: 2px solid orange;
+    border: 2px solid black;
     background-color: white;
 }
 
@@ -339,7 +340,7 @@ header img {
     padding: 10px;
     margin: 10px;
     background-color: white;
-    border: 2px solid orange;
+    border: 2px solid black;
 }
 
 /* is-selected class */
