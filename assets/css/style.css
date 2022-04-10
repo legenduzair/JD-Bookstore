@@ -32,7 +32,7 @@ header img {
 
 .brand-title {
     font-size: 3rem;
-    margin: 0.5rem;
+    margin: 8px;
     text-align: center;
 }
 
@@ -63,12 +63,6 @@ header img {
     color: white;
     padding: 1rem;
     display: block;
-}
-
-.navbar-links a:is(:link, :active, :visited).active {
-    background-color: #B8860B;
-    border-radius: 10px;
-    padding-bottom: 12px;
 }
 
 /* Social Media links Media Queries */
@@ -135,6 +129,12 @@ header img {
     .brand-title {
         margin-right: 10.625rem;
     }
+
+    .navbar-links a:is(:link, :active, :visited).active {
+        background-color: #B8860B;
+        border-radius: 10px;
+        padding-bottom: 12px;
+    }
 }
 
 @media (max-width: 759px) {
@@ -179,6 +179,14 @@ header img {
         display: none;
     }
 
+    .navbar-links a:is(:link, :active, :visited).active {
+        background-color: #B8860B;
+        border-radius: 10px;
+        padding-bottom: 12px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+    
 }
 
 /* Main Section CSS Styles & Media Queries */
